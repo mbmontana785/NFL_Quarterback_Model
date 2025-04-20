@@ -7,3 +7,13 @@ Before we get into the comps, let's get a general sense of the overall strength 
 With this in mind, we know that we shouldn't expect any of these rookies to be compared to any great quarterbacks who have played in the NFL. 
 
 ![My Cool Chart](qb_with_rookies.png)
+
+## Coming up
+* Show Super Bowl plot
+* Explain features
+* Show correlations
+* Explain target variable
+* Show model performance dataframe
+* Show test set predictions dataframe (highlights and lowlights)
+* Show comps
+* Show dataset ranked by QB_score
