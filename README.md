@@ -62,7 +62,7 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 | Gradient Boost         | NA               | NA         | -0.2682   | 0.6226 |
 | XG Boost               | NA               | NA         | -0.4477   | 0.6652 *(Not CVed)* |
 
-### 🧠 Features Retained by Elastic Net
+### Features Retained by Elastic Net
 
 | Group 1    | Group 2 | Group 3 | Group 4 | Group 5 |
 |------------|---------|---------|---------|---------|
