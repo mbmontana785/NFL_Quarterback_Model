@@ -63,7 +63,6 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 
 ### Features Retained by Elastic Net
 
-|------------|---------|---------|---------|---------|
 | Power 5_3  | PAA_3   | PASS_4  | PEN_3   | vertical|
 | Power 5_4  | PAA_4   | RUN_3   | PEN_4   |         |
 | QBR_3      | PLAYS_4 | RUN_4   | ht      |         |
