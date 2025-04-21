@@ -57,14 +57,12 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 | Lasso Regression       | 0.0399           | NA         | 0.1114    | 0.5212 |
 | Ridge Regression       | 100              | NA         | 0.0936    | 0.5264 |
 | Elastic Net Regression | 0.2812           | 0.1        | **0.1288**    | **0.5160** |
-|                        |                  |            |           |        |
 | Random Forest          | NA               | NA         | -0.2126   | 0.6088 |
 | Gradient Boost         | NA               | NA         | -0.2682   | 0.6226 |
 | XG Boost               | NA               | NA         | -0.4477   | 0.6652 *(Not CVed)* |
 
 ### Features Retained by Elastic Net
 
-| Group 1    | Group 2 | Group 3 | Group 4 | Group 5 |
 |------------|---------|---------|---------|---------|
 | Power 5_3  | PAA_3   | PASS_4  | PEN_3   | vertical|
 | Power 5_4  | PAA_4   | RUN_3   | PEN_4   |         |
