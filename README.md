@@ -34,6 +34,11 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 * cone: Cone drill time at the NFL Scouting Combine (in seconds)
 * shuttle: Shuttle time at the NFL Scouting Combine (in seconds)
 
+## Correlation heatmap
+
+![My Cool Chart](qb_with_rookies.png)
+
+
 ## Coming up
 * Show correlations
 * Explain target variable
