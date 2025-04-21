@@ -14,8 +14,27 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 
 ![My Cool Chart](qb_super_bowls.png)
 
+## Feature glossary
+(feature names followed by '_4' indicate last year of college. Feature names followed by '_3' indicate second-to-last year of college. Feature names followed by '_Diff' indicate the difference between the two years, indicating if there was improvement)
+* Power 5: Binary indicator. Did the quarterback play in a Power 5 conference?
+* QBR: (from ESPN) Adjusted Total Quarterback Rating, which values the quarterback on all play types on a 0-100 scale adjusted for the strength of opposing defenses faced.
+* PAA: (from ESPN) Number of points contributed by a quarterback, accounting for QBR and how much he plays, above the level of an average quarterback.
+* PLAYS: (from ESPN) Number of points contributed by a quarterback, accounting for QBR and how much he plays, above the level of an average quarterback.
+* EPA: (from ESPN) Total expected points added with low leverage plays, according to ESPN Win Probability model, down-weighted.
+* PASS: (from ESPN) Expected points added on pass attempts with low leverage plays down-weighted.
+* RUN: (from ESPN) Clutch-weighted expected points added through rushes.
+* SACK (from ESPN): Expected points added on sacks with low leverage plays down-weighted.
+* PEN (from ESPN): Expected points added on penalties with low leverage plays down-weighted.
+* RAW (from ESPN): Raw Total Quarterback Rating, which values quarterback on all play types on a 0-100 scale (not adjusted for opposing defenses faced).
+* ht: Height (in inches)
+* wt: Weight (in pounds)
+* forty: 40-yard dash time at the NFL Scouting Combine (in seconds)
+* vertical: Vertical leap at the NFL Scouting Combine (in inches)
+* broad_jump: Broad jump at the NFL Scouting Combine (in inches)
+* cone: Cone drill time at the NFL Scouting Combine (in seconds)
+* shuttle: Shuttle time at the NFL Scouting Combine (in seconds)
+
 ## Coming up
-* Explain features
 * Show correlations
 * Explain target variable
 * Show model performance dataframe
