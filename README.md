@@ -8,6 +8,8 @@ With this in mind, we know that we shouldn't expect any of these rookies to be c
 
 ![My Cool Chart](qb_with_rookies.png)
 
+![My Cool Chart](qb_with_rookies.png)
+
 ## Coming up
 * Show Super Bowl plot
 * Explain features
