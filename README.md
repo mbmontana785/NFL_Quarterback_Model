@@ -8,7 +8,9 @@ With this in mind, we know that we shouldn't expect any of these rookies to be c
 
 ![My Cool Chart](qb_with_rookies.png)
 
-## Quarterbacks who have played in Super Bowls
+## Not just any QB can get a team to the Super Bowl
+
+The blue dots represent quarterbacks in our dataset (careers beginning in 2005 or later) who have won at least one Super Bowl. The red dots represent quarterbacks who have reached at least one Super Bowl without winning one. The black dots represent the rest of the quarterbacks. 
 
 ![My Cool Chart](qb_super_bowls.png)
 
