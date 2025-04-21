@@ -36,7 +36,7 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 
 ## Correlation heatmap
 
-![My Cool Chart](qb_with_rookies.png)
+![My Cool Chart](correlation_heatmap_QB_success.png)
 
 
 ## Coming up
