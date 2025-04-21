@@ -38,7 +38,7 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 
 ![My Cool Chart](correlation_heatmap_QB_success.png)
 
-## Target variable formula
+## Target variable formula (how we calculated QB_score)
 
 (Win Probability Added represents the percentage by which a quarterback improves his team's probability of winning the game on each play. Negative if he hurts his team's winning probability.)
 
@@ -68,22 +68,79 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 | QBR_3      | PLAYS_4 | RUN_4   | ht      |         |
 | QBR_4      | EPA_4   | SACK_3  | wt      |         |
 
-## Test set results
+## Test set results (highlights and lowlights)
+Our model's test set contained 65 samples, about 20 percent of the 325-sample dataset. Most of the quarterback data was used to train the model, where the model saw all the variables and the QB_score for each quarterback. Then we showed the model the variables for these 65 quarterbacks, without the QB_score, and the model made predictions.
 
-<details>
-<summary>📊 Click to expand full prediction results (65 QBs)</summary>
+### Prediction Results (All 65 QBs)
 
-| Name               | Actual     | Predicted  | Residual   |
-|--------------------|------------|------------|------------|
-| Jalen Hurts        | 1.0009     | 0.6678     | 0.3331     |
-| Collin Klein       | -0.5784    | 0.6247     | -1.2031    |
-| Deshaun Watson     | 1.0312     | 0.5173     | 0.5138     |
-| Vince Young        | 0.3953     | 0.4672     | -0.0719    |
-| Caleb Williams     | -0.0686    | 0.4613     | -0.5298    |
-| ...                | ...        | ...        | ...        |
-| Kyle Wright        | -0.5784    | -0.6133    | 0.0349     |
+| Name                  | Actual     | Predicted  | Residual   |
+|-----------------------|------------|------------|------------|
+| Jalen Hurts           | 1.0009     | 0.6678     | 0.3331     |
+| Collin Klein          | -0.5784    | 0.6247     | -1.2031    |
+| Deshaun Watson        | 1.0312     | 0.5173     | 0.5138     |
+| Vince Young           | 0.3953     | 0.4672     | -0.0719    |
+| Caleb Williams        | -0.0686    | 0.4613     | -0.5298    |
+| Mac Jones             | 0.3206     | 0.4282     | -0.1076    |
+| Case Keenum           | 0.3390     | 0.4264     | -0.0874    |
+| Dwayne Haskins        | -0.2191    | 0.4151     | -0.6342    |
+| Jordan Lynch          | -0.5784    | 0.4045     | -0.9829    |
+| E.J. Manuel           | 0.0066     | 0.3912     | -0.3846    |
+| Russell Wilson        | 2.1655     | 0.3821     | 1.7834     |
+| Landry Jones          | 0.0783     | 0.3265     | -0.2482    |
+| Hendon Hooker         | 0.0092     | 0.2828     | -0.2736    |
+| Teddy Bridgewater     | 0.4936     | 0.2728     | 0.2207     |
+| Sam Howell            | 0.0333     | 0.2587     | -0.2253    |
+| Cole McDonald         | -0.5784    | 0.2383     | -0.8167    |
+| John Wolford          | -0.0552    | 0.2195     | -0.2747    |
+| Colt McCoy            | 0.0565     | 0.2182     | -0.1617    |
+| Daniel Jones          | 0.4185     | 0.2159     | 0.2026     |
+| Ryan Finley           | -0.2034    | 0.1729     | -0.3762    |
+| Colin Kaepernick      | 0.6009     | 0.1556     | 0.4452     |
+| Connor Cook           | -0.1138    | 0.1398     | -0.2536    |
+| Zach Mettenberger     | -0.1978    | 0.1234     | -0.3213    |
+| Nick Fitzgerald       | -0.5784    | 0.1032     | -0.6817    |
+| Aaron Murray          | -0.5784    | 0.0510     | -0.6294    |
+| DeShone Kizer         | -0.3491    | 0.0334     | -0.3825    |
+| Stephen McGee         | 0.0288     | 0.0318     | -0.0030    |
+| Ryan Fitzpatrick      | 0.9757     | 0.0218     | 0.9539     |
+| Brock Purdy           | 1.3248     | 0.0102     | 1.3146     |
+| Mike White            | 0.0231     | 0.0016     | 0.0215     |
+| Pat White             | -0.0461    | -0.0029    | -0.0432    |
+| Kellen Clemens        | -0.0584    | -0.0363    | -0.0221    |
+| Riley Ferguson        | -0.5784    | -0.0502    | -0.5282    |
+| Drew Stanton          | 0.0403     | -0.0613    | 0.1016     |
+| Carson Strong         | -0.5784    | -0.0647    | -0.5138    |
+| Michael Pratt         | -0.5784    | -0.0655    | -0.5129    |
+| Luke Falk             | -0.1506    | -0.0716    | -0.0790    |
+| Spencer Rattler       | -0.2213    | -0.0760    | -0.1453    |
+| Trevor Knight         | -0.5784    | -0.0760    | -0.5024    |
+| Sean Mannion          | -0.0434    | -0.0903    | 0.0469     |
+| Connor Halliday       | -0.5784    | -0.1046    | -0.4738    |
+| Dustin Crum           | -0.5784    | -0.1288    | -0.4496    |
+| Jordan Jefferson      | 0.0155     | -0.1343    | 0.1498     |
+| Kent Smith            | -0.5784    | -0.1371    | -0.4414    |
+| Tom Savage            | -0.1141    | -0.1524    | 0.0384     |
+| Andy Dalton           | 1.1444     | -0.1587    | 1.3031     |
+| Scott Tolzien         | -0.0393    | -0.1636    | 0.1243     |
+| Austin Davis          | -0.1618    | -0.1686    | 0.0067     |
+| Trent Edwards         | -0.0813    | -0.1889    | 0.1076     |
+| Tommy DeVito          | -0.0979    | -0.1966    | 0.0987     |
+| Alex Brink            | -0.5784    | -0.2500    | -0.3284    |
+| Jordan Love           | 0.6116     | -0.2524    | 0.8640     |
+| Christian Hackenberg  | -0.5784    | -0.2568    | -0.3216    |
+| Anthony Morelli       | -0.5784    | -0.2619    | -0.3166    |
+| Drew Willy            | -0.5784    | -0.2621    | -0.3163    |
+| Brady White           | -0.5784    | -0.2712    | -0.3072    |
+| Peyton Ramsey         | 0.0198     | -0.2727    | 0.2925     |
+| Rhett Bomar           | -0.5784    | -0.2956    | -0.2828    |
+| Jevan Snead           | -0.5784    | -0.3389    | -0.2396    |
+| Thaddeus Lewis        | -0.0280    | -0.3644    | 0.3365     |
+| Charlie Frye          | -0.2072    | -0.3947    | 0.1874     |
+| James Pinkney         | -0.5784    | -0.3954    | -0.1830    |
+| Quinton Porter        | -0.5784    | -0.4024    | -0.1760    |
+| Jake Haener           | -0.0688    | -0.4101    | 0.3413     |
+| Kyle Wright           | -0.5784    | -0.6133    | 0.0349     |
 
-</details>
 
 
 ## Coming up
