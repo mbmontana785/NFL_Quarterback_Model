@@ -56,7 +56,7 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 | Linear Regression      | NA               | NA         | -0.0877   | 0.5766 |
 | Lasso Regression       | 0.0399           | NA         | 0.1114    | 0.5212 |
 | Ridge Regression       | 100              | NA         | 0.0936    | 0.5264 |
-| Elastic Net Regression | 0.2812           | 0.1        | 0.1288    | 0.5160 |
+| Elastic Net Regression | 0.2812           | 0.1        | **0.1288**    | **0.5160** |
 |                        |                  |            |           |        |
 | Random Forest          | NA               | NA         | -0.2126   | 0.6088 |
 | Gradient Boost         | NA               | NA         | -0.2682   | 0.6226 |
