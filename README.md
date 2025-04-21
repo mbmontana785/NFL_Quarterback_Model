@@ -49,6 +49,10 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 0.2 * Total All-Pro selections +
 0.1 * All-Pro selections per season
 
+## Model performance
+
+![My Cool Chart](QB Model Performance.pdf)
+
 ## Coming up
 * Show model performance dataframe
 * Show test set predictions dataframe (highlights and lowlights)
