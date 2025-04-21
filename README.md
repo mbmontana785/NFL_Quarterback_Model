@@ -141,7 +141,7 @@ Our model's test set contained 65 samples, about 20 percent of the 325-sample da
 | Jake Haener           | -0.0688    | -0.4101    | 0.3413     |
 | Kyle Wright           | -0.5784    | -0.6133    | 0.0349     |
 
-
+### Highlights and lowlights.
 
 ## Coming up
 * Show test set predictions dataframe (highlights and lowlights)
