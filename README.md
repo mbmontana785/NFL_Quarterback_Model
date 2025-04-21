@@ -68,8 +68,25 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 | QBR_3      | PLAYS_4 | RUN_4   | ht      |         |
 | QBR_4      | EPA_4   | SACK_3  | wt      |         |
 
+## Test set results
+
+<details>
+<summary>📊 Click to expand full prediction results (65 QBs)</summary>
+
+| Name               | Actual     | Predicted  | Residual   |
+|--------------------|------------|------------|------------|
+| Jalen Hurts        | 1.0009     | 0.6678     | 0.3331     |
+| Collin Klein       | -0.5784    | 0.6247     | -1.2031    |
+| Deshaun Watson     | 1.0312     | 0.5173     | 0.5138     |
+| Vince Young        | 0.3953     | 0.4672     | -0.0719    |
+| Caleb Williams     | -0.0686    | 0.4613     | -0.5298    |
+| ...                | ...        | ...        | ...        |
+| Kyle Wright        | -0.5784    | -0.6133    | 0.0349     |
+
+</details>
+
+
 ## Coming up
-* Show model performance dataframe
 * Show test set predictions dataframe (highlights and lowlights)
 * Show comps
 * Show dataset ranked by QB_score
