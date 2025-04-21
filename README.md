@@ -38,10 +38,16 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 
 ![My Cool Chart](correlation_heatmap_QB_success.png)
 
+## Target variable formula
+
+0.1 * Total Win Probability Added for career +
+0.3 * WPA per season +
+0.2 * Total career touchdown passes + 
+0.1 * TD passes per season +
+0.2 * Total All-Pro selections +
+0.1 * All-Pro selections per season
 
 ## Coming up
-* Show correlations
-* Explain target variable
 * Show model performance dataframe
 * Show test set predictions dataframe (highlights and lowlights)
 * Show comps
