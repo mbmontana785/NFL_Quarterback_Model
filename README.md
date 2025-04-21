@@ -40,6 +40,8 @@ The blue dots represent quarterbacks in our dataset (careers beginning in 2005 o
 
 ## Target variable formula
 
+(Win Probability Added represents the percentage by which a quarterback improves his team's probability of winning the game on each play. Negative if he hurts his team's winning probability.)
+
 0.1 * Total Win Probability Added for career +
 0.3 * WPA per season +
 0.2 * Total career touchdown passes + 
